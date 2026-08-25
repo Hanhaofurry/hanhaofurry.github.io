@@ -3,11 +3,81 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>我的個人網站</title>
+    <meta name="description" content="Hanhao English Studio：給高中生的英文自學、課堂活動與資源入口。" />
+    <meta name="theme-color" content="#123b5d" />
+    <title>Hanhao English Studio｜高中英文教學基地</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Noto+Sans+TC:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>你好，我是你的名字。</h1>
-    <p>這是我的個人網站。</p>
-    <p>我會在這裡放作品、經歷與聯絡方式。</p>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Hanhao English Studio 首頁"><span class="brand-mark" aria-hidden="true">Aa</span><span><strong>HANHAO</strong><em>ENGLISH STUDIO</em></span></a>
+      <nav aria-label="主要導覽"><a href="#students">學生練習</a><a href="#classroom">課堂活動</a><a href="#resources">教材資源</a><a href="#teacher">關於老師</a></nav>
+      <a class="header-action" href="https://engquizarc-d5xtnrwu.manus.space" target="_blank" rel="noreferrer">今日闖關 ↗</a>
+    </header>
+
+    <main id="top">
+      <section class="hero page-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> HIGH SCHOOL ENGLISH · READ / THINK / SPEAK</p>
+          <h1 id="hero-title">英文不只是<br />考題，也是你<span>理解世界</span><br />的方法。</h1>
+          <p class="lead">這裡整理了給高中生的自學任務、可以直接帶進課堂的活動，以及教師精選的閱讀、字彙與句型資源。每次只要從一個小問題開始。</p>
+          <div class="hero-actions"><a class="primary-button" href="https://engquizarc-d5xtnrwu.manus.space" target="_blank" rel="noreferrer">開始今日英文任務 <span aria-hidden="true">→</span></a><a class="quiet-link" href="#students">選擇學習入口 <span aria-hidden="true">↓</span></a></div>
+          <dl class="hero-stats"><div><dt>11</dt><dd>闖關主題</dd></div><div><dt>04</dt><dd>學習入口</dd></div><div><dt>01</dt><dd>今日挑戰</dd></div></dl>
+        </div>
+        <aside class="weekly-card" aria-label="本週英文學習地圖">
+          <div class="card-topline"><span>THE WEEKLY ENGLISH MAP</span><span>WEEK 01</span></div>
+          <div class="week-title"><span>THIS WEEK'S<br />QUESTION</span><strong>How do we<br />make meaning?</strong></div>
+          <div class="word-collage" aria-hidden="true"><b>READ</b><i>ASK</i><em>MAKE</em><u>SHARE</u></div>
+          <div class="week-task"><span>MON–FRI / SMALL STEPS</span><p>從一段閱讀、一個字根，或一個你想說清楚的句子開始。</p></div>
+          <a href="#classroom" class="week-link">查看課堂活動 <span>↘</span></a>
+        </aside>
+      </section>
+
+      <section class="entry-section page-shell" id="students" aria-labelledby="entry-title">
+        <header class="section-heading"><p class="eyebrow eyebrow-soft">從今天想完成的事開始</p><h2 id="entry-title">一個英文教室，<br />四種開始方式。</h2></header>
+        <div class="entry-grid">
+          <a class="entry-card entry-card--coral" href="https://engquizarc-d5xtnrwu.manus.space" target="_blank" rel="noreferrer"><span>01 / STUDENT QUEST</span><h3>學生自學<br />闖關站</h3><p>從字根、生活字彙、時態到句型，先解一小組題目，把感覺找回來。</p><b>前往練習 ↗</b></a>
+          <a class="entry-card entry-card--blue" href="#classroom"><span>02 / CLASSROOM</span><h3>今天課堂<br />可以怎麼玩？</h3><p>投影、暖身、分組討論與離場小卡，讓學生把英文用在思考上。</p><b>挑一個活動 ↓</b></a>
+          <a class="entry-card entry-card--yellow" href="#resources"><span>03 / RESOURCE DESK</span><h3>找一份<br />剛好用得到的資源</h3><p>依閱讀、字彙、句型與活動類型，快速找到可以改編的教材起點。</p><b>打開資源庫 ↓</b></a>
+          <a class="entry-card entry-card--ink" href="#teacher"><span>04 / ABOUT THE TEACHER</span><h3>一間相信<br />語言能帶人走遠的教室</h3><p>認識教學理念、課程方向，以及如何把好奇心帶進英文課。</p><b>認識老師 ↓</b></a>
+        </div>
+      </section>
+
+      <section class="classroom-section page-shell" id="classroom" aria-labelledby="classroom-title">
+        <header class="classroom-header"><div><p class="eyebrow eyebrow-soft">CLASSROOM READY / 05 MINUTES</p><h2 id="classroom-title">先讓學生想說，<br />再讓文法幫忙。</h2></div><p>這是一個可直接投影的微型句型活動。學生先選答案，再根據回饋說出「為什麼」。</p></header>
+        <div class="activity-panel">
+          <div class="activity-label"><span>WARM-UP ACTIVITY</span><span>GRAMMAR IN CONTEXT</span></div>
+          <div class="question-card">
+            <p class="question-label">CHOOSE THE BEST ANSWER</p>
+            <h3>“I <span class="blank-word">_____</span> English since junior high school.”</h3>
+            <div class="answer-grid" role="group" aria-label="選擇正確答案"><button class="answer" data-answer="wrong" type="button">A. study</button><button class="answer" data-answer="correct" type="button">B. have studied</button><button class="answer" data-answer="wrong" type="button">C. studied</button><button class="answer" data-answer="wrong" type="button">D. am studying</button></div>
+            <div class="feedback" id="grammar-feedback" aria-live="polite"><strong>先選一個答案。</strong><p>提示：找找看句子裡的時間線索。</p></div>
+          </div>
+          <aside class="teacher-prompt"><span>TEACHER PROMPT</span><h3>不要先講規則，先問：</h3><p>「這件事是已經結束了，還是從過去持續到現在？」</p><div><b>SINCE</b><i>from a starting point</i></div><button id="reset-grammar" type="button">↺ 再出一次題</button></aside>
+        </div>
+      </section>
+
+      <section class="quest-section page-shell" aria-labelledby="quest-title">
+        <div class="quest-copy"><p class="eyebrow"><span></span> CONNECTED PRACTICE PLATFORM</p><h2 id="quest-title">題目練完後，<br />把小小的進步留住。</h2><p>既有的「英語闖關站」已經有字根、生活字彙、五大句型、時態、助動詞、連接詞、子句與綜合測驗等十一個主題。這裡把它放在學生自學入口，讓課堂活動與個人練習接得起來。</p><a class="primary-button" href="https://engquizarc-d5xtnrwu.manus.space" target="_blank" rel="noreferrer">前往英語闖關站 <span>↗</span></a></div>
+        <div class="quest-map" aria-label="英語闖關站主題地圖"><div class="map-heading"><span>ENGLISH QUEST</span><b>11 MISSIONS</b></div><div class="mission-dots"><i>字根</i><i>生活字彙</i><i>五大句型</i><i>代名詞</i><i>時態</i><i>助動詞</i><i>連接詞</i><i>被動語態</i><i>名詞子句</i><i>形容詞子句</i><i>綜合測驗</i></div><p>每次一小題，讓學生在熟悉的題型中建立節奏。</p></div>
+      </section>
+
+      <section class="resource-section page-shell" id="resources" aria-labelledby="resource-title">
+        <header class="resource-heading"><div><p class="eyebrow eyebrow-soft">TEACHER'S RESOURCE DESK <span id="resource-count">06</span></p><h2 id="resource-title">讓備課從「找素材」<br />變成「選一個好問題」。</h2></div><label class="search-box" for="resource-search"><span aria-hidden="true">⌕</span><input id="resource-search" type="search" placeholder="搜尋閱讀、單字或活動" /></label></header>
+        <div class="filter-bar" aria-label="資源分類"><button class="filter is-active" type="button" data-filter="all">全部</button><button class="filter" type="button" data-filter="reading">閱讀</button><button class="filter" type="button" data-filter="vocabulary">單字</button><button class="filter" type="button" data-filter="grammar">句型與文法</button><button class="filter" type="button" data-filter="activity">課堂活動</button></div>
+        <div class="resource-list" id="resource-list"></div><p class="empty-state" id="empty-state" hidden>目前沒有相符的資源。試著改用簡短關鍵字，或回到「全部」。</p>
+      </section>
+
+      <section class="teacher-section page-shell" id="teacher" aria-labelledby="teacher-title">
+        <div class="teacher-mark" aria-hidden="true"><span>ENGLISH</span><b>IS A<br />WAY<br />TO<br />MEET<br />THE<br />WORLD.</b></div>
+        <div class="teacher-copy"><p class="eyebrow eyebrow-soft">ABOUT THE TEACHER</p><h2 id="teacher-title">讓學生不是只答對，<br />而是慢慢敢用英文表達。</h2><p>這個網站的第一版，會先把可重複使用的練習、課堂活動與教材入口整理起來。之後可逐步加入真正的班級教材、閱讀任務、學生作品或家長資訊。</p><div class="teacher-notes"><span>TEACHING BELIEF</span><p>理解一段文字、問一個好問題、把一句話說得更清楚，都是語言學習正在發生的證據。</p></div><a href="mailto:your-email@example.com" class="quiet-link">聯絡老師 →</a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">Aa</span><span><strong>HANHAO</strong><em>ENGLISH STUDIO</em></span></a><p>給高中生的英文自學、課堂活動與教師資源入口。</p><a href="#top">回到頂端 ↑</a></footer>
+    <script src="app.js"></script>
   </body>
 </html>
